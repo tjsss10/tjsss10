@@ -32,35 +32,63 @@
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/tjsss10/CropDisease-AI-Pro"><img src="assets/card-cropdisease.svg" alt="CropDisease AI Pro" width="100%"></a>
+      <img src="assets/pipe-cropdisease.svg" alt="How CropDisease AI works: photo, segmentation, lesions, signature match, treatment plan" width="100%">
+      <p><b>CropDisease AI Pro</b> — an AI crop doctor for farmers.</p>
+      <ul>
+        <li>🔬 Pure-Java <b>computer-vision engine</b> — finds lesions and draws a disease <b>heatmap</b></li>
+        <li>🌾 <b>45 diseases · 11 crops</b> with organic + chemical treatment and a 14-day plan</li>
+        <li>⛅ <b>7-day disease-risk forecast</b> from live weather</li>
+        <li>🧮 Spray calculator · 🩺 symptom checker · 🤖 farm assistant · 📄 PDF reports</li>
+      </ul>
       <p>
-        <b>CropDisease AI Pro</b> — an AI crop doctor. A pure-Java computer-vision engine finds leaf lesions,
-        matches them to 45 disease signatures and builds an organic + chemical treatment plan.
-        Also: 7-day weather disease-risk, spray calculator, symptom checker and a chat assistant.
-      </p>
-      <p>
-        <a href="https://cropdisease-ai-pro.onrender.com">🔗 Live app</a> ·
-        <a href="https://github.com/tjsss10/CropDisease-AI-Pro">📂 Code</a>
+        <a href="https://cropdisease-ai-pro.onrender.com"><img src="https://img.shields.io/badge/Live_app-A6E3A1?style=for-the-badge&logo=render&logoColor=11111B" alt="Live app"></a>
+        <a href="https://github.com/tjsss10/CropDisease-AI-Pro"><img src="https://img.shields.io/badge/Source-1E1E2E?style=for-the-badge&logo=github&logoColor=CDD6F4" alt="Source code"></a>
       </p>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/tjsss10/fitjanta"><img src="assets/card-fitjanta.svg" alt="FitJanta" width="100%"></a>
+      <img src="assets/pipe-fitjanta.svg" alt="How FitJanta works: log, Food AI, XP and levels, compete, share" width="100%">
+      <p><b>FitJanta</b> — a social fitness app you can install on your phone.</p>
+      <ul>
+        <li>🍛 <b>Food AI</b> — type a meal in plain words, get calories, macros and a health score</li>
+        <li>⚡ <b>XP, levels, streaks</b> and ready-made challenges</li>
+        <li>🗺️ <b>Live territory map</b> — see athletes nearby and claim areas</li>
+        <li>📸 Photo feed · 💬 comments · 🏆 leaderboard · 📱 PWA</li>
+      </ul>
       <p>
-        <b>FitJanta</b> — a social fitness app. Log workouts and meals (with an AI nutrition analyser),
-        earn XP and levels, take on challenges, claim territory on a live map and climb the leaderboard.
-        Installable on phones as a PWA.
-      </p>
-      <p>
-        <a href="https://fitjanta.onrender.com">🔗 Live app</a> ·
-        <a href="https://github.com/tjsss10/fitjanta">📂 Code</a>
+        <a href="https://fitjanta.onrender.com"><img src="https://img.shields.io/badge/Live_app-FAB387?style=for-the-badge&logo=render&logoColor=11111B" alt="Live app"></a>
+        <a href="https://github.com/tjsss10/fitjanta"><img src="https://img.shields.io/badge/Source-1E1E2E?style=for-the-badge&logo=github&logoColor=CDD6F4" alt="Source code"></a>
       </p>
     </td>
   </tr>
 </table>
 
-| Project | What it is | Tags |
-|---|---|---|
-| 🎓 [College Event Management System](https://github.com/tjsss10/college-event-management-system) | Agile project (PE-I): plan, register and manage college events | `agile` `scrum` |
-| 🍔 [Food Delivery App](https://github.com/tjsss10/food-delivery-app) | Team Scrum simulation — product backlog, sprint backlog, cart feature notes | `scrum` `team` |
+### 🧩 Agile & team projects
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/tjsss10/college-event-management-system"><img src="assets/card-college.svg" alt="College Event Management System — Project Lead" width="100%"></a>
+      <p><b>College Event Management System</b> — led the team as <b>Project Lead</b>.</p>
+      <ul>
+        <li>🗓️ Admins create and manage events; students register online</li>
+        <li>📊 Participant dashboard for organisers</li>
+        <li>⚙️ <b>GitHub Actions</b> CI workflow on every push</li>
+      </ul>
+      <p><a href="https://github.com/tjsss10/college-event-management-system"><img src="https://img.shields.io/badge/View_repo-1E1E2E?style=for-the-badge&logo=github&logoColor=B4BEFE" alt="View repository"></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/tjsss10/food-delivery-app"><img src="assets/card-food.svg" alt="Food Delivery App — Scrum team project" width="100%"></a>
+      <p><b>Food Delivery App</b> — a complete Scrum cycle as a team.</p>
+      <ul>
+        <li>📋 Product &amp; sprint backlogs using the <b>INVEST</b> principle</li>
+        <li>🃏 <b>Planning poker</b> estimates · 📉 burn-down / burn-up charts</li>
+        <li>🔁 Sprint retrospectives · ⚙️ CI demo with <b>GitHub Actions</b></li>
+      </ul>
+      <p><a href="https://github.com/tjsss10/food-delivery-app"><img src="https://img.shields.io/badge/View_repo-1E1E2E?style=for-the-badge&logo=github&logoColor=F9E2AF" alt="View repository"></a></p>
+    </td>
+  </tr>
+</table>
 
 ---
 
