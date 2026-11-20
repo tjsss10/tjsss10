@@ -111,7 +111,7 @@
     <g class="mono" font-size="14">
       <text x="808" y="228" clip-path="url(#O1)" fill="#CDD6F4">Hello, World! I'm <tspan fill="#F5C2E7" font-weight="700">Tejas</tspan> 👋</text>
       <text x="808" y="252" clip-path="url(#O2)" fill="#A6ADC8"><tspan fill="#94E2D5">▸</tspan> Java · Spring Boot · MySQL</text>
-      <text x="808" y="276" clip-path="url(#O3)" fill="#A6ADC8"><tspan fill="#94E2D5">▸</tspan> Ex-intern @ HCLTech</text>
+      <text x="808" y="276" clip-path="url(#O3)" fill="#A6ADC8"><tspan fill="#94E2D5">▸</tspan> Built FitJanta @ HCLTech</text>
       <text x="808" y="300" clip-path="url(#O4)" fill="#A6ADC8"><tspan fill="#94E2D5">▸</tspan> Currently exploring Agentic AI</text>
       <text x="808" y="332" clip-path="url(#O5)" fill="#A6E3A1" font-weight="700">BUILD SUCCESSFUL <tspan fill="#7F849C" font-weight="400">in 1.2s · exit 0</tspan></text>
     </g>

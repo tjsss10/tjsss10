@@ -46,20 +46,24 @@
       <rect width="96" height="34" rx="17" fill="#CBA6F7" fill-opacity=".14" stroke="#CBA6F7" stroke-opacity=".55"/>
       <text x="48" y="22.5" text-anchor="middle" class="sans" font-size="15" font-weight="700" fill="#CBA6F7">Intern</text>
     </g>
-    <text x="170" y="138" class="sans" font-size="16" fill="#BAC2DE">Internship at one of India's leading global IT services companies.</text>
+    <g transform="translate(478,76)">
+      <rect width="168" height="34" rx="17" fill="#FAB387" fill-opacity=".14" stroke="#FAB387" stroke-opacity=".55"/>
+      <text x="84" y="22.5" text-anchor="middle" class="sans" font-size="14" font-weight="700" fill="#FAB387">Built: FitJanta 🏃</text>
+    </g>
+    <text x="170" y="138" class="sans" font-size="16" fill="#BAC2DE">Built <tspan fill="#FAB387" font-weight="700">FitJanta</tspan> — a social fitness app with AI nutrition, now live.</text>
 
     <!-- timeline on the right -->
     <g transform="translate(940,85)">
       <path d="M0 0 H200" stroke="#CDD6F4" stroke-opacity=".12" stroke-width="2"/>
       <path class="flow" d="M0 0 H200" stroke="#B4BEFE" stroke-opacity=".7" stroke-width="2" stroke-dasharray="6 14"/>
       <circle cx="0" cy="0" r="7" fill="#11111B" stroke="#B4BEFE" stroke-width="2.5"/>
-      <circle cx="200" cy="0" r="7" fill="#11111B" stroke="#89DCEB" stroke-width="2.5"/>
-      <circle class="ring" cx="200" cy="0" r="4" fill="#89DCEB"/>
-      <circle cx="200" cy="0" r="4" fill="#89DCEB"/>
-      <text x="0" y="-22" text-anchor="middle" class="mono" font-size="11.5" fill="#A6ADC8">learning</text>
+      <circle cx="200" cy="0" r="7" fill="#11111B" stroke="#FAB387" stroke-width="2.5"/>
+      <circle class="ring" cx="200" cy="0" r="4" fill="#A6E3A1"/>
+      <circle cx="200" cy="0" r="4" fill="#A6E3A1"/>
+      <text x="0" y="-22" text-anchor="middle" class="mono" font-size="11.5" fill="#A6ADC8">internship</text>
       <text x="0" y="32" text-anchor="middle" class="sans" font-size="13" font-weight="600" fill="#B4BEFE">HCLTech</text>
-      <text x="200" y="-22" text-anchor="middle" class="mono" font-size="11.5" fill="#A6ADC8">now</text>
-      <text x="200" y="32" text-anchor="middle" class="sans" font-size="13" font-weight="600" fill="#89DCEB">Shipping apps</text>
+      <text x="200" y="-22" text-anchor="middle" class="mono" font-size="11.5" fill="#A6ADC8">shipped · live</text>
+      <text x="200" y="32" text-anchor="middle" class="sans" font-size="13" font-weight="600" fill="#FAB387">FitJanta</text>
     </g>
   </g>
 </svg>

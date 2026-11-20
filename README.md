@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/experience.svg" alt="Experience — Intern at HCLTech" width="100%">
+  <img src="assets/experience.svg" alt="Experience — Intern at HCLTech, built FitJanta" width="100%">
 </p>
 
 <p align="center">
@@ -19,7 +19,7 @@
   <img src="assets/about-ide.svg" alt="About me as a Java class: Tejas Gavhane, full-stack Java developer — Java, Spring Boot, MySQL, Docker — building AI-powered web apps, learning agentic AI" width="100%">
 </p>
 
-- 💼 Former **intern at HCLTech**.
+- 💼 Former **intern at HCLTech**, where I built **FitJanta** — now live in production.
 - 🌱 I build **real, deployed apps** — from the MySQL schema to the UI to the cloud.
 - 🤖 Exploring **AI in everyday products**: computer vision for farmers, smart nutrition for fitness.
 - 🧩 Comfortable with **Agile / Scrum** teamwork — sprints, backlogs and user stories.
@@ -48,7 +48,7 @@
     <td width="50%" valign="top">
       <a href="https://github.com/tjsss10/fitjanta"><img src="assets/card-fitjanta.svg" alt="FitJanta" width="100%"></a>
       <img src="assets/pipe-fitjanta.svg" alt="How FitJanta works: log, Food AI, XP and levels, compete, share" width="100%">
-      <p><b>FitJanta</b> — a social fitness app you can install on your phone.</p>
+      <p><b>FitJanta</b> — a social fitness app, built during my <b>HCLTech internship</b>.</p>
       <ul>
         <li>🍛 <b>Food AI</b> — type a meal in plain words, get calories, macros and a health score</li>
         <li>⚡ <b>XP, levels, streaks</b> and ready-made challenges</li>

@@ -20,7 +20,7 @@
     <rect width="560" height="300" fill="url(#bg)"/>
     <circle cx="460" cy="130" r="190" fill="url(#glow)"/>
     <rect x=".5" y=".5" width="559" height="299" rx="19.5" fill="none" stroke="url(#edge)"/>
-    <text x="30" y="50" class="mono" font-size="11" font-weight="700" letter-spacing="2.5" fill="#FAB387">FITNESS · SOCIAL · AI NUTRITION</text>
+    <text x="30" y="50" class="mono" font-size="11" font-weight="700" letter-spacing="2.5" fill="#FAB387">BUILT @ HCLTECH INTERNSHIP</text>
     <text x="30" y="94" class="sans" fill="url(#t)" font-size="36" font-weight="700" letter-spacing="-1">FitJanta</text>
     <text x="30" y="126" class="sans" fill="#BAC2DE" font-size="15">Log workouts and meals, let the AI count</text>
     <text x="30" y="147" class="sans" fill="#BAC2DE" font-size="15">the nutrition, and compete with friends.</text>
