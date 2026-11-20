@@ -8,9 +8,9 @@
   <a href="https://fitjanta.onrender.com"><img src="assets/live-fitjanta.svg" alt="FitJanta — live demo" height="46"></a>
 </p>
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=tjsss10&style=flat-square&color=2DD4BF&label=profile+views" alt="Profile views">
-  <img src="https://img.shields.io/github/followers/tjsss10?style=flat-square&color=A3E635&labelColor=0B1220" alt="Followers">
-  <img src="https://img.shields.io/badge/status-shipping_🚀-22C55E?style=flat-square&labelColor=0B1220" alt="Status: shipping">
+  <img src="https://komarev.com/ghpvc/?username=tjsss10&style=flat-square&color=CBA6F7&label=profile+views" alt="Profile views">
+  <img src="https://img.shields.io/github/followers/tjsss10?style=flat-square&color=94E2D5&labelColor=1E1E2E" alt="Followers">
+  <img src="https://img.shields.io/badge/status-shipping_🚀-A6E3A1?style=flat-square&labelColor=1E1E2E" alt="Status: shipping">
 </p>
 
 ---
@@ -68,25 +68,25 @@
 ### 🛠️ Tech stack
 
 <p>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot">
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
-  <img src="https://img.shields.io/badge/Hibernate_JPA-59666C?style=for-the-badge&logo=hibernate&logoColor=white" alt="Hibernate">
-  <img src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white" alt="Gradle">
+  <img src="https://img.shields.io/badge/Java-1E1E2E?style=for-the-badge&logo=openjdk&logoColor=FAB387" alt="Java">
+  <img src="https://img.shields.io/badge/Spring_Boot-1E1E2E?style=for-the-badge&logo=springboot&logoColor=A6E3A1" alt="Spring Boot">
+  <img src="https://img.shields.io/badge/MySQL-1E1E2E?style=for-the-badge&logo=mysql&logoColor=89DCEB" alt="MySQL">
+  <img src="https://img.shields.io/badge/Hibernate_JPA-1E1E2E?style=for-the-badge&logo=hibernate&logoColor=B4BEFE" alt="Hibernate">
+  <img src="https://img.shields.io/badge/Gradle-1E1E2E?style=for-the-badge&logo=gradle&logoColor=94E2D5" alt="Gradle">
 </p>
 <p>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap">
-  <img src="https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white" alt="Chart.js">
+  <img src="https://img.shields.io/badge/HTML5-1E1E2E?style=for-the-badge&logo=html5&logoColor=FAB387" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1E1E2E?style=for-the-badge&logo=css3&logoColor=89B4FA" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-1E1E2E?style=for-the-badge&logo=javascript&logoColor=F9E2AF" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Bootstrap-1E1E2E?style=for-the-badge&logo=bootstrap&logoColor=CBA6F7" alt="Bootstrap">
+  <img src="https://img.shields.io/badge/Chart.js-1E1E2E?style=for-the-badge&logo=chartdotjs&logoColor=F5C2E7" alt="Chart.js">
 </p>
 <p>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
-  <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black" alt="Render">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code">
-  <img src="https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white" alt="IntelliJ IDEA">
+  <img src="https://img.shields.io/badge/Docker-1E1E2E?style=for-the-badge&logo=docker&logoColor=89B4FA" alt="Docker">
+  <img src="https://img.shields.io/badge/Render-1E1E2E?style=for-the-badge&logo=render&logoColor=94E2D5" alt="Render">
+  <img src="https://img.shields.io/badge/Git-1E1E2E?style=for-the-badge&logo=git&logoColor=F38BA8" alt="Git">
+  <img src="https://img.shields.io/badge/VS_Code-1E1E2E?style=for-the-badge&logo=visualstudiocode&logoColor=89B4FA" alt="VS Code">
+  <img src="https://img.shields.io/badge/IntelliJ_IDEA-1E1E2E?style=for-the-badge&logo=intellijidea&logoColor=F5C2E7" alt="IntelliJ IDEA">
 </p>
 
 ---
@@ -99,7 +99,7 @@
 - [ ] Multi-language (Hindi / Marathi) support for farmers
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Open_to-internships_&_collaborations-22C55E?style=flat-square&labelColor=0B1220" alt="Open to internships and collaborations">
+  <img src="https://img.shields.io/badge/Open_to-internships_&_collaborations-F5C2E7?style=flat-square&labelColor=1E1E2E" alt="Open to internships and collaborations">
 </p>
 
 <p align="center"><sub>⭐ If you like a project, a star helps a lot — thanks for visiting!</sub></p>

@@ -1,39 +1,46 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="560" height="300" viewBox="0 0 560 300" role="img" aria-label="CropDisease AI Pro project card">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#062012"/><stop offset="1" stop-color="#05110B"/></linearGradient>
-    <linearGradient id="t" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#A3E635"/><stop offset="1" stop-color="#2DD4BF"/></linearGradient>
-    <radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#22C55E" stop-opacity=".5"/><stop offset="1" stop-color="#22C55E" stop-opacity="0"/></radialGradient>
-    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4ADE80"/><stop offset="1" stop-color="#15803D"/></linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1B2422"/><stop offset="1" stop-color="#181825"/></linearGradient>
+    <linearGradient id="t" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#A6E3A1"/><stop offset="1" stop-color="#94E2D5"/></linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#94E2D5" stop-opacity=".22"/><stop offset="1" stop-color="#94E2D5" stop-opacity="0"/></radialGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#A6E3A1"/><stop offset="1" stop-color="#6FAF7A"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#A6E3A1" stop-opacity=".45"/><stop offset="1" stop-color="#CDD6F4" stop-opacity=".06"/></linearGradient>
     <clipPath id="c"><rect width="560" height="300" rx="20"/></clipPath>
     <style>
-      text{font-family:'Segoe UI',Inter,Arial,sans-serif}
-      .scan{animation:s 2.6s ease-in-out infinite}
-      @keyframes s{0%,100%{transform:translateY(0)}50%{transform:translateY(130px)}}
+      .sans{font-family:'Segoe UI Variable Display','Segoe UI',Inter,Arial,sans-serif}
+      .mono{font-family:'Cascadia Code',Consolas,Menlo,'Courier New',monospace}
+      .scan{animation:s 3.2s ease-in-out infinite}
+      @keyframes s{0%,100%{transform:translateY(0)}50%{transform:translateY(128px)}}
+      .ping{animation:p 2.4s ease-out infinite;transform-box:fill-box;transform-origin:center}
+      @keyframes p{0%{transform:scale(.6);opacity:.8}100%{transform:scale(1.8);opacity:0}}
     </style>
   </defs>
   <g clip-path="url(#c)">
     <rect width="560" height="300" fill="url(#bg)"/>
-    <circle cx="450" cy="130" r="170" fill="url(#glow)"/>
-    <rect x=".5" y=".5" width="559" height="299" rx="20" fill="none" stroke="#A3E635" stroke-opacity=".25"/>
-    <text x="30" y="52" fill="#86EFAC" font-size="13" font-weight="700" letter-spacing="2">🌾 AGRI-TECH · AI · LIVE</text>
-    <text x="30" y="96" fill="url(#t)" font-size="34" font-weight="800">CropDisease AI Pro</text>
-    <text x="30" y="128" fill="#B7C9BE" font-size="15">Snap a leaf → disease, % leaf affected,</text>
-    <text x="30" y="150" fill="#B7C9BE" font-size="15">heatmap &amp; a 14-day treatment plan.</text>
-    <text x="30" y="182" fill="#8FA89A" font-size="13">45 diseases · 11 crops · weather risk · Krishi Mitra bot</text>
-    <g font-size="12" font-weight="700">
-      <rect x="30" y="206" width="56" height="26" rx="13" fill="#22C55E" fill-opacity=".16"/><text x="44" y="223" fill="#86EFAC">Java</text>
-      <rect x="94" y="206" width="100" height="26" rx="13" fill="#22C55E" fill-opacity=".16"/><text x="108" y="223" fill="#86EFAC">Spring Boot</text>
-      <rect x="202" y="206" width="64" height="26" rx="13" fill="#38BDF8" fill-opacity=".16"/><text x="215" y="223" fill="#7DD3FC">MySQL</text>
-      <rect x="274" y="206" width="70" height="26" rx="13" fill="#38BDF8" fill-opacity=".16"/><text x="287" y="223" fill="#7DD3FC">Docker</text>
+    <circle cx="460" cy="130" r="190" fill="url(#glow)"/>
+    <rect x=".5" y=".5" width="559" height="299" rx="19.5" fill="none" stroke="url(#edge)"/>
+    <text x="30" y="50" class="mono" font-size="11" font-weight="700" letter-spacing="2.5" fill="#94E2D5">AGRI-TECH · COMPUTER VISION</text>
+    <text x="30" y="94" class="sans" fill="url(#t)" font-size="33" font-weight="700" letter-spacing="-1">CropDisease AI Pro</text>
+    <text x="30" y="126" class="sans" fill="#BAC2DE" font-size="15">Snap a leaf — get the disease, how much</text>
+    <text x="30" y="147" class="sans" fill="#BAC2DE" font-size="15">of it is affected and a 14-day treatment plan.</text>
+    <text x="30" y="178" class="mono" fill="#7F849C" font-size="12">45 diseases · 11 crops · weather risk · assistant</text>
+    <g class="mono" font-size="11.5" font-weight="600">
+      <rect x="30" y="200" width="54" height="24" rx="12" fill="#FAB387" fill-opacity=".10" stroke="#FAB387" stroke-opacity=".35"/><text x="57" y="216" text-anchor="middle" fill="#FAB387">Java</text>
+      <rect x="92" y="200" width="98" height="24" rx="12" fill="#A6E3A1" fill-opacity=".10" stroke="#A6E3A1" stroke-opacity=".35"/><text x="141" y="216" text-anchor="middle" fill="#A6E3A1">Spring Boot</text>
+      <rect x="198" y="200" width="64" height="24" rx="12" fill="#89DCEB" fill-opacity=".10" stroke="#89DCEB" stroke-opacity=".35"/><text x="230" y="216" text-anchor="middle" fill="#89DCEB">MySQL</text>
+      <rect x="270" y="200" width="68" height="24" rx="12" fill="#B4BEFE" fill-opacity=".10" stroke="#B4BEFE" stroke-opacity=".35"/><text x="304" y="216" text-anchor="middle" fill="#B4BEFE">Docker</text>
     </g>
-    <text x="30" y="270" fill="#A3E635" font-size="14" font-weight="700">▶ cropdisease-ai-pro.onrender.com</text>
-    <g transform="translate(400,58)">
-      <rect x="-14" y="-10" width="148" height="170" rx="18" fill="#03140A" stroke="#A3E635" stroke-opacity=".35"/>
-      <path d="M60 8 C95 28 112 62 100 96 C90 124 70 136 60 136 C50 136 30 124 20 96 C8 62 25 28 60 8Z" fill="url(#leaf)"/>
-      <path d="M60 14 V134 M60 50 L40 38 M60 50 L80 38 M60 78 L34 62 M60 78 L86 62 M60 106 L38 92 M60 106 L82 92" stroke="#166534" stroke-width="2" fill="none" stroke-linecap="round"/>
-      <circle cx="42" cy="72" r="8" fill="#92400E"/><circle cx="42" cy="72" r="13" fill="none" stroke="#FACC15" stroke-width="2"/>
-      <circle cx="80" cy="96" r="10" fill="#92400E"/><circle cx="80" cy="96" r="15" fill="none" stroke="#FACC15" stroke-width="2"/>
-      <rect class="scan" x="-6" y="0" width="132" height="3" fill="#A3E635" opacity=".9"/>
+    <circle cx="36" cy="262" r="4" fill="#A6E3A1"/><circle class="ping" cx="36" cy="262" r="4" fill="#A6E3A1"/>
+    <text x="48" y="267" class="mono" fill="#A6E3A1" font-size="13">cropdisease-ai-pro.onrender.com</text>
+
+    <g transform="translate(400,60)">
+      <rect x="-14" y="-12" width="148" height="172" rx="18" fill="#11111B" fill-opacity=".7" stroke="#A6E3A1" stroke-opacity=".25"/>
+      <path d="M60 8 C95 28 112 62 100 96 C90 124 70 136 60 136 C50 136 30 124 20 96 C8 62 25 28 60 8Z" fill="url(#leaf)" opacity=".9"/>
+      <path d="M60 14 V134 M60 50 L40 38 M60 50 L80 38 M60 78 L34 62 M60 78 L86 62 M60 106 L38 92 M60 106 L82 92" stroke="#4E7A57" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <circle cx="42" cy="72" r="7" fill="#B98A6A"/><circle cx="42" cy="72" r="12" fill="none" stroke="#F9E2AF" stroke-width="1.5"/>
+      <circle cx="80" cy="96" r="9" fill="#B98A6A"/><circle cx="80" cy="96" r="14" fill="none" stroke="#F9E2AF" stroke-width="1.5"/>
+      <rect class="scan" x="-6" y="2" width="132" height="2" rx="1" fill="#94E2D5" opacity=".9"/>
+      <text x="60" y="154" text-anchor="middle" class="mono" font-size="10" fill="#94E2D5">early blight · 87%</text>
     </g>
   </g>
 </svg>

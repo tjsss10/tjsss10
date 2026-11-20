@@ -1,22 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="330" height="46" viewBox="0 0 330 46" role="img" aria-label="CropDisease AI live demo: cropdisease-ai-pro.onrender.com">
+<svg xmlns="http://www.w3.org/2000/svg" width="330" height="50" viewBox="0 0 330 50" role="img" aria-label="CropDisease AI live demo: cropdisease-ai-pro.onrender.com">
   <defs>
-    <linearGradient id="b" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#052E16"/><stop offset="1" stop-color="#0B1220"/></linearGradient>
+    <linearGradient id="b" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#1F2A26"/><stop offset="1" stop-color="#181825"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#A6E3A1" stop-opacity=".7"/><stop offset="1" stop-color="#94E2D5" stop-opacity=".2"/></linearGradient>
     <style>
-      .m{font-family:Consolas,'SFMono-Regular',Menlo,'Courier New',monospace}
-      .ring{animation:r 1.8s ease-out infinite;transform-origin:22px 23px}
-      @keyframes r{0%{transform:scale(.6);opacity:.9}100%{transform:scale(2.4);opacity:0}}
-      .sh{animation:s 3.5s ease-in-out infinite}
-      @keyframes s{0%{transform:translateX(-120px)}60%,100%{transform:translateX(360px)}}
+      .m{font-family:'Cascadia Code',Consolas,'SFMono-Regular',Menlo,'Courier New',monospace}
+      .ring{animation:r 2.4s ease-out infinite;transform-origin:24px 25px}
+      @keyframes r{0%{transform:scale(.7);opacity:.7}100%{transform:scale(2.6);opacity:0}}
+      .sh{animation:s 5s ease-in-out infinite}
+      @keyframes s{0%{transform:translateX(-140px)}55%,100%{transform:translateX(380px)}}
     </style>
-    <clipPath id="c"><rect width="330" height="46" rx="12"/></clipPath>
+    <clipPath id="c"><rect width="330" height="50" rx="14"/></clipPath>
   </defs>
   <g clip-path="url(#c)">
-    <rect width="330" height="46" fill="url(#b)"/>
-    <rect class="sh" x="0" y="0" width="60" height="46" fill="#A3E635" opacity=".07" transform="skewX(-20)"/>
-    <rect x=".5" y=".5" width="329" height="45" rx="11.5" fill="none" stroke="#22C55E" stroke-opacity=".55"/>
-    <circle class="ring" cx="22" cy="23" r="6" fill="#22C55E"/>
-    <circle cx="22" cy="23" r="5" fill="#4ADE80"/>
-    <text x="38" y="20" class="m" font-size="10" font-weight="700" letter-spacing="1.5" fill="#86EFAC">LIVE DEMO · 🌾 CROPDISEASE AI</text>
-    <text x="38" y="36" class="m" font-size="12.5" fill="#E2E8F0">cropdisease-ai-pro.onrender.com ↗</text>
+    <rect width="330" height="50" fill="url(#b)"/>
+    <rect class="sh" x="0" y="-10" width="70" height="70" fill="#F5E0DC" opacity=".05" transform="skewX(-20)"/>
+    <rect x=".5" y=".5" width="329" height="49" rx="13.5" fill="none" stroke="url(#edge)"/>
+    <circle class="ring" cx="24" cy="25" r="6" fill="#A6E3A1"/>
+    <circle cx="24" cy="25" r="4.5" fill="#A6E3A1"/>
+    <text x="42" y="21" class="m" font-size="9.5" font-weight="700" letter-spacing="2" fill="#A6E3A1">LIVE · CROPDISEASE AI</text>
+    <text x="42" y="38" class="m" font-size="12.5" fill="#CDD6F4">cropdisease-ai-pro.onrender.com <tspan fill="#94E2D5">↗</tspan></text>
   </g>
 </svg>
