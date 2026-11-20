@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Tejas Gavhane - Java and Spring Boot developer building AI-powered web apps">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05110B"/>
+      <stop offset="1" stop-color="#0B1220"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#A3E635"/>
+      <stop offset=".45" stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+    <radialGradient id="g1" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#22C55E" stop-opacity=".55"/><stop offset="1" stop-color="#22C55E" stop-opacity="0"/></radialGradient>
+    <radialGradient id="g2" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#FF5A3C" stop-opacity=".45"/><stop offset="1" stop-color="#FF5A3C" stop-opacity="0"/></radialGradient>
+    <radialGradient id="g3" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#38BDF8" stop-opacity=".35"/><stop offset="1" stop-color="#38BDF8" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#A3E635" stroke-opacity=".06"/></pattern>
+    <clipPath id="r"><rect width="1200" height="300" rx="24"/></clipPath>
+    <style>
+      .float1{animation:f1 9s ease-in-out infinite alternate}
+      .float2{animation:f2 11s ease-in-out infinite alternate}
+      .float3{animation:f1 13s ease-in-out infinite alternate-reverse}
+      @keyframes f1{to{transform:translate(60px,25px)}}
+      @keyframes f2{to{transform:translate(-70px,-20px)}}
+      .caret{animation:blink 1s steps(1) infinite}
+      @keyframes blink{50%{opacity:0}}
+      .roles text{opacity:0;animation:role 12s infinite}
+      .roles text:nth-child(2){animation-delay:4s}
+      .roles text:nth-child(3){animation-delay:8s}
+      @keyframes role{0%,2%{opacity:0;transform:translateY(8px)}5%,30%{opacity:1;transform:none}33%,100%{opacity:0;transform:translateY(-8px)}}
+      text{font-family:'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif}
+    </style>
+  </defs>
+  <g clip-path="url(#r)">
+    <rect width="1200" height="300" fill="url(#bg)"/>
+    <rect width="1200" height="300" fill="url(#grid)"/>
+    <circle class="float1" cx="180" cy="60" r="220" fill="url(#g1)"/>
+    <circle class="float2" cx="1050" cy="250" r="240" fill="url(#g2)"/>
+    <circle class="float3" cx="760" cy="20" r="180" fill="url(#g3)"/>
+
+    <text x="70" y="96" fill="#8FA89A" font-size="20" font-weight="600" letter-spacing="4">HI THERE, I'M</text>
+    <text x="68" y="168" fill="url(#txt)" font-size="70" font-weight="800" letter-spacing="-1.5">Tejas Gavhane</text>
+    <g class="roles" font-size="26" font-weight="600" fill="#ECF7F0">
+      <text x="70" y="222">☕ Java &amp; Spring Boot developer</text>
+      <text x="70" y="222">🌱 Building AI-powered apps for real people</text>
+      <text x="70" y="222">🚀 Shipping full-stack projects to the cloud</text>
+    </g>
+    <text x="70" y="262" fill="#5E7468" font-size="16" font-family="Consolas,monospace">$ ./gradlew bootRun --project=next-big-thing<tspan class="caret" fill="#A3E635">▋</tspan></text>
+
+    <!-- code window -->
+    <g transform="translate(800,58)">
+      <rect width="330" height="190" rx="16" fill="#0A1510" fill-opacity=".85" stroke="#A3E635" stroke-opacity=".25"/>
+      <circle cx="22" cy="20" r="6" fill="#F87171"/><circle cx="42" cy="20" r="6" fill="#FBBF24"/><circle cx="62" cy="20" r="6" fill="#22C55E"/>
+      <g font-family="Consolas,monospace" font-size="14">
+        <text x="20" y="60" fill="#C084FC">@RestController</text>
+        <text x="20" y="84" fill="#38BDF8">class <tspan fill="#ECF7F0">Tejas</tspan> {</text>
+        <text x="38" y="108" fill="#ECF7F0">stack = <tspan fill="#A3E635">"Java · Spring · MySQL"</tspan>;</text>
+        <text x="38" y="132" fill="#ECF7F0">focus = <tspan fill="#A3E635">"AI + Web apps"</tspan>;</text>
+        <text x="38" y="156" fill="#ECF7F0">status = <tspan fill="#FBBF24">"always learning"</tspan>;</text>
+        <text x="20" y="178" fill="#38BDF8">}</text>
+      </g>
+    </g>
+  </g>
+</svg>
