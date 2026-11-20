@@ -3,24 +3,23 @@
 </p>
 
 <p align="center">
-  <a href="https://cropdisease-ai-pro.onrender.com"><img src="https://img.shields.io/badge/🌾_CropDisease_AI-live-22C55E?style=for-the-badge&labelColor=0B1220" alt="CropDisease AI live"></a>
-  <a href="https://fitjanta.onrender.com"><img src="https://img.shields.io/badge/🏃_FitJanta-live-FF5A3C?style=for-the-badge&labelColor=0B1220" alt="FitJanta live"></a>
-  <img src="https://komarev.com/ghpvc/?username=tjsss10&style=for-the-badge&color=2DD4BF&label=profile+views" alt="Profile views">
+  <a href="https://cropdisease-ai-pro.onrender.com"><img src="assets/live-cropdisease.svg" alt="CropDisease AI — live demo" height="46"></a>
+  &nbsp;
+  <a href="https://fitjanta.onrender.com"><img src="assets/live-fitjanta.svg" alt="FitJanta — live demo" height="46"></a>
+</p>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=tjsss10&style=flat-square&color=2DD4BF&label=profile+views" alt="Profile views">
+  <img src="https://img.shields.io/github/followers/tjsss10?style=flat-square&color=A3E635&labelColor=0B1220" alt="Followers">
+  <img src="https://img.shields.io/badge/status-shipping_🚀-22C55E?style=flat-square&labelColor=0B1220" alt="Status: shipping">
 </p>
 
 ---
 
 ### 👋 About me
 
-```java
-public class AboutMe {
-    String name      = "Tejas Gavhane";
-    String role      = "Full-stack Java developer · Engineering student";
-    String[] builds  = { "AI-powered web apps", "Spring Boot REST APIs", "Mobile-first UIs" };
-    String learning  = "Agentic AI, multi-agent systems & cloud deployment";
-    String funFact   = "I ship my projects live, not just to localhost 🚀";
-}
-```
+<p align="center">
+  <img src="assets/about-ide.svg" alt="About me as a Java class: Tejas Gavhane, full-stack Java developer — Java, Spring Boot, MySQL, Docker — building AI-powered web apps, learning agentic AI" width="100%">
+</p>
 
 - 🌱 I build **real, deployed apps** — from the MySQL schema to the UI to the cloud.
 - 🤖 Exploring **AI in everyday products**: computer vision for farmers, smart nutrition for fitness.

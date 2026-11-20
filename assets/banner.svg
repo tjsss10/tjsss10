@@ -1,62 +1,158 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Tejas Gavhane - Java and Spring Boot developer building AI-powered web apps">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Tejas Gavhane — full-stack Java developer building and shipping AI-powered web apps">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#05110B"/>
-      <stop offset="1" stop-color="#0B1220"/>
+      <stop offset="0" stop-color="#030A07"/><stop offset=".55" stop-color="#06100D"/><stop offset="1" stop-color="#0A0E1A"/>
     </linearGradient>
-    <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#A3E635"/>
-      <stop offset=".45" stop-color="#22C55E"/>
-      <stop offset="1" stop-color="#2DD4BF"/>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#D9F99D"/><stop offset=".35" stop-color="#4ADE80"/><stop offset=".7" stop-color="#2DD4BF"/><stop offset="1" stop-color="#38BDF8"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.3 0;0.3 0;-0.3 0" dur="8s" repeatCount="indefinite"/>
     </linearGradient>
-    <radialGradient id="g1" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#22C55E" stop-opacity=".55"/><stop offset="1" stop-color="#22C55E" stop-opacity="0"/></radialGradient>
-    <radialGradient id="g2" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#FF5A3C" stop-opacity=".45"/><stop offset="1" stop-color="#FF5A3C" stop-opacity="0"/></radialGradient>
-    <radialGradient id="g3" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#38BDF8" stop-opacity=".35"/><stop offset="1" stop-color="#38BDF8" stop-opacity="0"/></radialGradient>
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#A3E635" stroke-opacity=".06"/></pattern>
-    <clipPath id="r"><rect width="1200" height="300" rx="24"/></clipPath>
+    <radialGradient id="glowG" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#22C55E" stop-opacity=".45"/><stop offset="1" stop-color="#22C55E" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowB" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#0EA5E9" stop-opacity=".35"/><stop offset="1" stop-color="#0EA5E9" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowR" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#F43F5E" stop-opacity=".28"/><stop offset="1" stop-color="#F43F5E" stop-opacity="0"/></radialGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#A3E635" stop-opacity="0"/><stop offset=".5" stop-color="#A3E635" stop-opacity=".09"/><stop offset="1" stop-color="#A3E635" stop-opacity="0"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#86EFAC" stroke-opacity=".05"/></pattern>
+    <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#86EFAC" fill-opacity=".07"/></pattern>
+    <filter id="soft" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <clipPath id="frame"><rect width="1200" height="340" rx="22"/></clipPath>
+
+    <!-- typing clips for the rotating roles (15 s cycle, 3 roles) -->
+    <clipPath id="r1"><rect x="70" y="196" height="40" width="0"><animate attributeName="width" dur="15s" repeatCount="indefinite" keyTimes="0;.10;.27;.31;1" values="0;330;330;0;0"/></rect></clipPath>
+    <clipPath id="r2"><rect x="70" y="196" height="40" width="0"><animate attributeName="width" dur="15s" repeatCount="indefinite" keyTimes="0;.333;.433;.60;.643;1" values="0;0;317;317;0;0"/></rect></clipPath>
+    <clipPath id="r3"><rect x="70" y="196" height="40" width="0"><animate attributeName="width" dur="15s" repeatCount="indefinite" keyTimes="0;.666;.766;.93;.97;1" values="0;0;343;343;0;0"/></rect></clipPath>
+
+    <!-- terminal line reveal clips (14 s cycle) -->
+    <clipPath id="t1"><rect x="782" y="86" height="18" width="0"><animate attributeName="width" dur="14s" repeatCount="indefinite" keyTimes="0;.02;.09;.97;1" values="0;0;180;180;0"/></rect></clipPath>
+    <clipPath id="t2"><rect x="782" y="108" height="18" width="0"><animate attributeName="width" dur="14s" repeatCount="indefinite" keyTimes="0;.11;.125;.97;1" values="0;0;260;260;0"/></rect></clipPath>
+    <clipPath id="t3"><rect x="782" y="130" height="18" width="0"><animate attributeName="width" dur="14s" repeatCount="indefinite" keyTimes="0;.15;.21;.97;1" values="0;0;160;160;0"/></rect></clipPath>
+    <clipPath id="t4"><rect x="782" y="152" height="18" width="0"><animate attributeName="width" dur="14s" repeatCount="indefinite" keyTimes="0;.26;.275;.97;1" values="0;0;190;190;0"/></rect></clipPath>
+    <clipPath id="t5"><rect x="782" y="174" height="18" width="0"><animate attributeName="width" dur="14s" repeatCount="indefinite" keyTimes="0;.30;.39;.97;1" values="0;0;270;270;0"/></rect></clipPath>
+    <clipPath id="t6"><rect x="782" y="196" height="18" width="0"><animate attributeName="width" dur="14s" repeatCount="indefinite" keyTimes="0;.42;.435;.97;1" values="0;0;190;190;0"/></rect></clipPath>
+    <clipPath id="t7"><rect x="782" y="218" height="18" width="0"><animate attributeName="width" dur="14s" repeatCount="indefinite" keyTimes="0;.46;.52;.97;1" values="0;0;220;220;0"/></rect></clipPath>
+    <clipPath id="t8"><rect x="782" y="262" height="18" width="0"><animate attributeName="width" dur="14s" repeatCount="indefinite" keyTimes="0;.66;.675;.97;1" values="0;0;360;360;0"/></rect></clipPath>
+    <clipPath id="t9"><rect x="782" y="284" height="18" width="0"><animate attributeName="width" dur="14s" repeatCount="indefinite" keyTimes="0;.70;.715;.97;1" values="0;0;360;360;0"/></rect></clipPath>
+
     <style>
-      .float1{animation:f1 9s ease-in-out infinite alternate}
-      .float2{animation:f2 11s ease-in-out infinite alternate}
-      .float3{animation:f1 13s ease-in-out infinite alternate-reverse}
-      @keyframes f1{to{transform:translate(60px,25px)}}
-      @keyframes f2{to{transform:translate(-70px,-20px)}}
-      .caret{animation:blink 1s steps(1) infinite}
+      .sans{font-family:'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif}
+      .mono{font-family:Consolas,'SFMono-Regular',Menlo,'Liberation Mono','Courier New',monospace}
+      .blink{animation:blink 1s steps(1) infinite}
       @keyframes blink{50%{opacity:0}}
-      .roles text{opacity:0;animation:role 12s infinite}
-      .roles text:nth-child(2){animation-delay:4s}
-      .roles text:nth-child(3){animation-delay:8s}
-      @keyframes role{0%,2%{opacity:0;transform:translateY(8px)}5%,30%{opacity:1;transform:none}33%,100%{opacity:0;transform:translateY(-8px)}}
-      text{font-family:'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif}
+      .drift1{animation:d1 10s ease-in-out infinite alternate}
+      .drift2{animation:d2 13s ease-in-out infinite alternate}
+      @keyframes d1{to{transform:translate(70px,30px)}}
+      @keyframes d2{to{transform:translate(-80px,-25px)}}
+      .gA{animation:gA 6s infinite}
+      .gB{animation:gB 6s infinite}
+      @keyframes gA{0%,86%,100%{opacity:0;transform:none}87%{opacity:.8;transform:translate(-4px,1px)}89%{opacity:.6;transform:translate(3px,-2px)}91%{opacity:0}}
+      @keyframes gB{0%,86%,100%{opacity:0;transform:none}87%{opacity:.8;transform:translate(4px,-1px)}89%{opacity:.6;transform:translate(-3px,2px)}91%{opacity:0}}
+      .slice{animation:sl 6s infinite}
+      @keyframes sl{0%,86%,92%,100%{opacity:0}87%,90%{opacity:1}}
+      .pulse{animation:pu 1.6s ease-in-out infinite}
+      @keyframes pu{0%,100%{opacity:1}50%{opacity:.25}}
     </style>
   </defs>
-  <g clip-path="url(#r)">
-    <rect width="1200" height="300" fill="url(#bg)"/>
-    <rect width="1200" height="300" fill="url(#grid)"/>
-    <circle class="float1" cx="180" cy="60" r="220" fill="url(#g1)"/>
-    <circle class="float2" cx="1050" cy="250" r="240" fill="url(#g2)"/>
-    <circle class="float3" cx="760" cy="20" r="180" fill="url(#g3)"/>
 
-    <text x="70" y="96" fill="#8FA89A" font-size="20" font-weight="600" letter-spacing="4">HI THERE, I'M</text>
-    <text x="68" y="168" fill="url(#txt)" font-size="70" font-weight="800" letter-spacing="-1.5">Tejas Gavhane</text>
-    <g class="roles" font-size="26" font-weight="600" fill="#ECF7F0">
-      <text x="70" y="222">☕ Java &amp; Spring Boot developer</text>
-      <text x="70" y="222">🌱 Building AI-powered apps for real people</text>
-      <text x="70" y="222">🚀 Shipping full-stack projects to the cloud</text>
-    </g>
-    <text x="70" y="262" fill="#5E7468" font-size="16" font-family="Consolas,monospace">$ ./gradlew bootRun --project=next-big-thing<tspan class="caret" fill="#A3E635">▋</tspan></text>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="340" fill="url(#bg)"/>
+    <rect width="1200" height="340" fill="url(#grid)"/>
+    <rect width="1200" height="340" fill="url(#dots)"/>
+    <circle class="drift1" cx="150" cy="40" r="260" fill="url(#glowG)"/>
+    <circle class="drift2" cx="1100" cy="300" r="260" fill="url(#glowR)"/>
+    <circle class="drift1" cx="760" cy="0" r="200" fill="url(#glowB)"/>
 
-    <!-- code window -->
-    <g transform="translate(800,58)">
-      <rect width="330" height="190" rx="16" fill="#0A1510" fill-opacity=".85" stroke="#A3E635" stroke-opacity=".25"/>
-      <circle cx="22" cy="20" r="6" fill="#F87171"/><circle cx="42" cy="20" r="6" fill="#FBBF24"/><circle cx="62" cy="20" r="6" fill="#22C55E"/>
-      <g font-family="Consolas,monospace" font-size="14">
-        <text x="20" y="60" fill="#C084FC">@RestController</text>
-        <text x="20" y="84" fill="#38BDF8">class <tspan fill="#ECF7F0">Tejas</tspan> {</text>
-        <text x="38" y="108" fill="#ECF7F0">stack = <tspan fill="#A3E635">"Java · Spring · MySQL"</tspan>;</text>
-        <text x="38" y="132" fill="#ECF7F0">focus = <tspan fill="#A3E635">"AI + Web apps"</tspan>;</text>
-        <text x="38" y="156" fill="#ECF7F0">status = <tspan fill="#FBBF24">"always learning"</tspan>;</text>
-        <text x="20" y="178" fill="#38BDF8">}</text>
+    <!-- circuit traces with travelling pulses -->
+    <g fill="none" stroke-linecap="round">
+      <g stroke="#4ADE80" stroke-opacity=".12" stroke-width="1.5">
+        <path id="p1" d="M0 300 H180 L210 270 H420 L440 290 H700"/>
+        <path id="p2" d="M0 40 H90 L120 12 H330"/>
+        <path id="p3" d="M560 340 V312 L585 288 H730"/>
+        <path id="p4" d="M1200 30 H1175 L1160 46 V320 L1140 340"/>
       </g>
+      <g stroke="#A3E635" stroke-width="2.5" stroke-dasharray="26 900">
+        <use href="#p1"><animate attributeName="stroke-dashoffset" from="926" to="0" dur="4.5s" repeatCount="indefinite"/></use>
+        <use href="#p2"><animate attributeName="stroke-dashoffset" from="926" to="0" dur="3.2s" begin="1s" repeatCount="indefinite"/></use>
+        <use href="#p3"><animate attributeName="stroke-dashoffset" from="926" to="0" dur="3.8s" begin=".5s" repeatCount="indefinite"/></use>
+      </g>
+      <use href="#p4" stroke="#38BDF8" stroke-width="2.5" stroke-dasharray="26 900"><animate attributeName="stroke-dashoffset" from="926" to="0" dur="5s" repeatCount="indefinite"/></use>
+      <g fill="#A3E635"><circle cx="210" cy="270" r="3"/><circle cx="440" cy="290" r="3"/><circle cx="120" cy="12" r="3"/><circle cx="585" cy="288" r="3"/></g>
+    </g>
+
+    <!-- scan line sweeping down -->
+    <rect x="0" y="-60" width="1200" height="60" fill="url(#scan)">
+      <animate attributeName="y" values="-60;340" dur="5s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- ===================== LEFT: identity ===================== -->
+    <text x="70" y="76" class="mono" font-size="16" fill="#4ADE80">
+      <tspan fill="#64748B">tejas@dev</tspan><tspan fill="#94A3B8">:</tspan><tspan fill="#38BDF8">~</tspan><tspan fill="#94A3B8">$ </tspan>whoami<tspan class="blink" fill="#A3E635"> ▍</tspan>
+    </text>
+
+    <!-- glitch name -->
+    <g class="sans" font-size="76" font-weight="800" letter-spacing="-2">
+      <text x="66" y="156" fill="#22D3EE" class="gA">Tejas Gavhane</text>
+      <text x="66" y="156" fill="#F43F5E" class="gB">Tejas Gavhane</text>
+      <text x="66" y="156" fill="url(#name)">Tejas Gavhane</text>
+      <text x="66" y="156" fill="url(#name)" filter="url(#soft)" opacity=".35">Tejas Gavhane</text>
+    </g>
+    <rect class="slice" x="60" y="118" width="520" height="7" fill="#06100D"/>
+    <rect class="slice" x="60" y="140" width="520" height="4" fill="#A3E635" opacity=".5"/>
+
+    <!-- rotating, typed roles -->
+    <g class="mono" font-size="24" font-weight="600">
+      <text x="70" y="224" fill="#E2E8F0" clip-path="url(#r1)" textLength="330" lengthAdjust="spacingAndGlyphs"><tspan fill="#A3E635">❯ </tspan>Full-stack Java developer</text>
+      <text x="70" y="224" fill="#E2E8F0" clip-path="url(#r2)" textLength="317" lengthAdjust="spacingAndGlyphs"><tspan fill="#A3E635">❯ </tspan>Building AI-powered apps</text>
+      <text x="70" y="224" fill="#E2E8F0" clip-path="url(#r3)" textLength="343" lengthAdjust="spacingAndGlyphs"><tspan fill="#A3E635">❯ </tspan>Shipping them to the cloud</text>
+    </g>
+    <rect x="72" y="204" width="12" height="26" fill="#A3E635" class="blink">
+      <animate attributeName="x" dur="15s" repeatCount="indefinite"
+        keyTimes="0;.10;.27;.31;.333;.433;.60;.643;.666;.766;.93;.97;1"
+        values="72;402;402;72;72;389;389;72;72;415;415;72;72"/>
+    </rect>
+
+    <!-- tech chips -->
+    <g class="mono" font-size="13" font-weight="700">
+      <g transform="translate(70,262)"><rect width="74" height="28" rx="8" fill="#F97316" fill-opacity=".12" stroke="#F97316" stroke-opacity=".45"/><text x="13" y="19" fill="#FDBA74">☕ Java</text></g>
+      <g transform="translate(152,262)"><rect width="118" height="28" rx="8" fill="#22C55E" fill-opacity=".12" stroke="#22C55E" stroke-opacity=".45"/><text x="13" y="19" fill="#86EFAC">🌱 Spring Boot</text></g>
+      <g transform="translate(278,262)"><rect width="84" height="28" rx="8" fill="#38BDF8" fill-opacity=".12" stroke="#38BDF8" stroke-opacity=".45"/><text x="13" y="19" fill="#7DD3FC">🐬 MySQL</text></g>
+      <g transform="translate(370,262)"><rect width="92" height="28" rx="8" fill="#3B82F6" fill-opacity=".12" stroke="#3B82F6" stroke-opacity=".45"/><text x="13" y="19" fill="#93C5FD">🐳 Docker</text></g>
+      <g transform="translate(470,262)"><rect width="104" height="28" rx="8" fill="#A855F7" fill-opacity=".12" stroke="#A855F7" stroke-opacity=".45"/><text x="13" y="19" fill="#D8B4FE">🧠 AI · CV</text></g>
+    </g>
+    <text x="70" y="316" class="mono" font-size="12" fill="#475569">// 2 apps in production · open to collaborate · always learning</text>
+
+    <!-- ===================== RIGHT: live deploy terminal ===================== -->
+    <g transform="translate(762,34)">
+      <rect width="410" height="282" rx="14" fill="#020617" fill-opacity=".88" stroke="#334155"/>
+      <rect width="410" height="34" rx="14" fill="#0F172A"/>
+      <rect y="20" width="410" height="14" fill="#0F172A"/>
+      <circle cx="20" cy="17" r="5.5" fill="#F87171"/><circle cx="38" cy="17" r="5.5" fill="#FBBF24"/><circle cx="56" cy="17" r="5.5" fill="#34D399"/>
+      <text x="205" y="22" text-anchor="middle" class="mono" font-size="12" fill="#94A3B8">tejas@dev: ~/projects — deploy.sh</text>
+      <circle cx="388" cy="17" r="4" fill="#22C55E" class="pulse"/>
+    </g>
+    <g class="mono" font-size="13">
+      <text x="782" y="100" fill="#E2E8F0" clip-path="url(#t1)" textLength="172" lengthAdjust="spacingAndGlyphs"><tspan fill="#A3E635">$</tspan> git push origin main</text>
+      <text x="782" y="122" fill="#94A3B8" clip-path="url(#t2)" textLength="250" lengthAdjust="spacingAndGlyphs"><tspan fill="#22C55E">✓</tspan> 4 commits → github.com/tjsss10</text>
+      <text x="782" y="144" fill="#E2E8F0" clip-path="url(#t3)" textLength="156" lengthAdjust="spacingAndGlyphs"><tspan fill="#A3E635">$</tspan> ./gradlew bootJar</text>
+      <text x="782" y="166" fill="#94A3B8" clip-path="url(#t4)" textLength="184" lengthAdjust="spacingAndGlyphs"><tspan fill="#22C55E">BUILD SUCCESSFUL</tspan> in 21s</text>
+      <text x="782" y="188" fill="#E2E8F0" clip-path="url(#t5)" textLength="265" lengthAdjust="spacingAndGlyphs"><tspan fill="#A3E635">$</tspan> docker build -t cropdisease .</text>
+      <text x="782" y="210" fill="#94A3B8" clip-path="url(#t6)" textLength="184" lengthAdjust="spacingAndGlyphs"><tspan fill="#22C55E">✓</tspan> image ready · 182 MB</text>
+      <text x="782" y="232" fill="#FBBF24" clip-path="url(#t7)" textLength="212" lengthAdjust="spacingAndGlyphs">→ deploying to render.com…</text>
+    </g>
+    <!-- deploy progress bar -->
+    <rect x="782" y="242" width="370" height="6" rx="3" fill="#1E293B" opacity="0">
+      <animate attributeName="opacity" dur="14s" repeatCount="indefinite" keyTimes="0;.52;.53;.97;1" values="0;0;1;1;0"/>
+    </rect>
+    <rect x="782" y="242" width="0" height="6" rx="3" fill="#A3E635">
+      <animate attributeName="width" dur="14s" repeatCount="indefinite" keyTimes="0;.53;.64;.97;1" values="0;0;370;370;0"/>
+    </rect>
+    <g class="mono" font-size="13" font-weight="700">
+      <text x="782" y="276" clip-path="url(#t8)" fill="#E2E8F0"><tspan fill="#22C55E">●</tspan> cropdisease-ai-pro</text>
+      <text x="782" y="298" clip-path="url(#t9)" fill="#E2E8F0"><tspan fill="#22C55E">●</tspan> fitjanta</text>
+    </g>
+    <g class="mono" font-size="11" font-weight="800">
+      <g opacity="0"><animate attributeName="opacity" dur="14s" repeatCount="indefinite" keyTimes="0;.675;.68;.97;1" values="0;0;1;1;0"/>
+        <rect x="1100" y="264" width="52" height="17" rx="4" fill="#22C55E"/><text x="1112" y="276" fill="#052E16">LIVE</text></g>
+      <g opacity="0"><animate attributeName="opacity" dur="14s" repeatCount="indefinite" keyTimes="0;.715;.72;.97;1" values="0;0;1;1;0"/>
+        <rect x="1100" y="286" width="52" height="17" rx="4" fill="#22C55E"/><text x="1112" y="298" fill="#052E16">LIVE</text></g>
     </g>
   </g>
 </svg>
