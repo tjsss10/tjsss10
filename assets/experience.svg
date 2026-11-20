@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" role="img" aria-label="Experience: Intern at HCLTech">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1F1D33"/><stop offset=".5" stop-color="#1A1A29"/><stop offset="1" stop-color="#181825"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#B4BEFE" stop-opacity=".7"/><stop offset=".5" stop-color="#CBA6F7" stop-opacity=".3"/><stop offset="1" stop-color="#89DCEB" stop-opacity=".5"/></linearGradient>
+    <linearGradient id="co" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#B4BEFE"/><stop offset=".5" stop-color="#89DCEB"/><stop offset="1" stop-color="#CBA6F7"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.3 0;0.3 0;-0.3 0" dur="10s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="g1" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#B4BEFE" stop-opacity=".25"/><stop offset="1" stop-color="#B4BEFE" stop-opacity="0"/></radialGradient>
+    <radialGradient id="g2" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#89DCEB" stop-opacity=".18"/><stop offset="1" stop-color="#89DCEB" stop-opacity="0"/></radialGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".9" fill="#CDD6F4" fill-opacity=".05"/></pattern>
+    <clipPath id="c"><rect width="1200" height="170" rx="24"/></clipPath>
+    <style>
+      .sans{font-family:'Segoe UI Variable Display','Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif}
+      .mono{font-family:'Cascadia Code',Consolas,'SFMono-Regular',Menlo,'Courier New',monospace}
+      .d1{animation:d1 16s ease-in-out infinite alternate}
+      .d2{animation:d2 20s ease-in-out infinite alternate}
+      @keyframes d1{to{transform:translate(120px,20px)}}
+      @keyframes d2{to{transform:translate(-140px,-10px)}}
+      .ring{animation:r 2.6s ease-out infinite;transform-box:fill-box;transform-origin:center}
+      @keyframes r{0%{transform:scale(.8);opacity:.8}100%{transform:scale(3);opacity:0}}
+      .flow{animation:f 3s linear infinite}
+      @keyframes f{to{stroke-dashoffset:-40}}
+    </style>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="1200" height="170" fill="url(#bg)"/>
+    <circle class="d1" cx="160" cy="40" r="220" fill="url(#g1)"/>
+    <circle class="d2" cx="1050" cy="140" r="220" fill="url(#g2)"/>
+    <rect width="1200" height="170" fill="url(#dots)"/>
+    <rect x="1" y="1" width="1198" height="168" rx="23" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
+
+    <!-- icon: briefcase -->
+    <rect x="40" y="35" width="100" height="100" rx="26" fill="#11111B" fill-opacity=".7" stroke="#B4BEFE" stroke-opacity=".35"/>
+    <g transform="translate(90,88)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="-28" y="-18" width="56" height="38" rx="8" stroke="#B4BEFE" stroke-width="3"/>
+      <path d="M-11 -18 V-25 a5 5 0 0 1 5 -5 h12 a5 5 0 0 1 5 5 V-18" stroke="#B4BEFE" stroke-width="3"/>
+      <path d="M-28 -2 H28" stroke="#89DCEB" stroke-width="2.5"/>
+      <rect x="-5" y="-6" width="10" height="9" rx="2" fill="#89DCEB" stroke="none"/>
+    </g>
+
+    <!-- text -->
+    <text x="170" y="56" class="mono" font-size="12" font-weight="700" letter-spacing="3" fill="#A6ADC8">EXPERIENCE</text>
+    <text x="168" y="106" class="sans" font-size="44" font-weight="700" letter-spacing="-1.2" fill="url(#co)">HCLTech</text>
+    <g transform="translate(372,76)">
+      <rect width="96" height="34" rx="17" fill="#CBA6F7" fill-opacity=".14" stroke="#CBA6F7" stroke-opacity=".55"/>
+      <text x="48" y="22.5" text-anchor="middle" class="sans" font-size="15" font-weight="700" fill="#CBA6F7">Intern</text>
+    </g>
+    <text x="170" y="138" class="sans" font-size="16" fill="#BAC2DE">Internship at one of India's leading global IT services companies.</text>
+
+    <!-- timeline on the right -->
+    <g transform="translate(940,85)">
+      <path d="M0 0 H200" stroke="#CDD6F4" stroke-opacity=".12" stroke-width="2"/>
+      <path class="flow" d="M0 0 H200" stroke="#B4BEFE" stroke-opacity=".7" stroke-width="2" stroke-dasharray="6 14"/>
+      <circle cx="0" cy="0" r="7" fill="#11111B" stroke="#B4BEFE" stroke-width="2.5"/>
+      <circle cx="200" cy="0" r="7" fill="#11111B" stroke="#89DCEB" stroke-width="2.5"/>
+      <circle class="ring" cx="200" cy="0" r="4" fill="#89DCEB"/>
+      <circle cx="200" cy="0" r="4" fill="#89DCEB"/>
+      <text x="0" y="-22" text-anchor="middle" class="mono" font-size="11.5" fill="#A6ADC8">learning</text>
+      <text x="0" y="32" text-anchor="middle" class="sans" font-size="13" font-weight="600" fill="#B4BEFE">HCLTech</text>
+      <text x="200" y="-22" text-anchor="middle" class="mono" font-size="11.5" fill="#A6ADC8">now</text>
+      <text x="200" y="32" text-anchor="middle" class="sans" font-size="13" font-weight="600" fill="#89DCEB">Shipping apps</text>
+    </g>
+  </g>
+</svg>

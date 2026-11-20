@@ -3,13 +3,12 @@
 </p>
 
 <p align="center">
-  <a href="https://cropdisease-ai-pro.onrender.com"><img src="assets/live-cropdisease.svg" alt="CropDisease AI — live demo" height="46"></a>
-  &nbsp;
-  <a href="https://fitjanta.onrender.com"><img src="assets/live-fitjanta.svg" alt="FitJanta — live demo" height="46"></a>
+  <img src="assets/experience.svg" alt="Experience — Intern at HCLTech" width="100%">
 </p>
+
 <p align="center">
-  <img src="https://img.shields.io/github/followers/tjsss10?style=flat-square&color=94E2D5&labelColor=1E1E2E" alt="Followers">
-  <img src="https://img.shields.io/badge/status-shipping_🚀-A6E3A1?style=flat-square&labelColor=1E1E2E" alt="Status: shipping">
+  <a href="https://cropdisease-ai-pro.onrender.com"><img src="assets/live-cropdisease.svg" alt="CropDisease AI — live app, open cropdisease-ai-pro.onrender.com" width="49%"></a>
+  <a href="https://fitjanta.onrender.com"><img src="assets/live-fitjanta.svg" alt="FitJanta — live app, open fitjanta.onrender.com" width="49%"></a>
 </p>
 
 ---
@@ -20,6 +19,7 @@
   <img src="assets/about-ide.svg" alt="About me as a Java class: Tejas Gavhane, full-stack Java developer — Java, Spring Boot, MySQL, Docker — building AI-powered web apps, learning agentic AI" width="100%">
 </p>
 
+- 💼 Former **intern at HCLTech**.
 - 🌱 I build **real, deployed apps** — from the MySQL schema to the UI to the cloud.
 - 🤖 Exploring **AI in everyday products**: computer vision for farmers, smart nutrition for fitness.
 - 🧩 Comfortable with **Agile / Scrum** teamwork — sprints, backlogs and user stories.

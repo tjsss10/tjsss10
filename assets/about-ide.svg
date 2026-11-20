@@ -70,7 +70,7 @@
     <!-- code (typed line by line) -->
     <g class="mono" font-size="15" xml:space="preserve" style="white-space:pre">
       <text x="98" y="114" clip-path="url(#L1)"><tspan class="kw">package</tspan><tspan class="pl"> dev.tejas;</tspan></text>
-      <text x="98" y="170" clip-path="url(#L2)"><tspan class="an">@Developer</tspan><tspan class="pl">(</tspan><tspan class="st">"full-stack"</tspan><tspan class="pl">)</tspan></text>
+      <text x="98" y="170" clip-path="url(#L2)"><tspan class="an">@Experience</tspan><tspan class="pl">(</tspan><tspan class="st">"Intern @ HCLTech"</tspan><tspan class="pl">)</tspan></text>
       <text x="98" y="198" clip-path="url(#L3)"><tspan class="kw">public class</tspan><tspan class="ty"> AboutMe </tspan><tspan class="pl">{</tspan></text>
       <text y="226" clip-path="url(#L4)"><tspan x="134" class="ty">String</tspan><tspan x="222" class="pl">name</tspan><tspan x="312" class="pl">=</tspan><tspan x="332" class="st">"Tejas Gavhane"</tspan><tspan class="pl">;</tspan></text>
       <text y="254" clip-path="url(#L5)"><tspan x="134" class="ty">String</tspan><tspan x="222" class="pl">role</tspan><tspan x="312" class="pl">=</tspan><tspan x="332" class="st">"Full-stack Java Developer"</tspan><tspan class="pl">;</tspan></text>
@@ -111,7 +111,7 @@
     <g class="mono" font-size="14">
       <text x="808" y="228" clip-path="url(#O1)" fill="#CDD6F4">Hello, World! I'm <tspan fill="#F5C2E7" font-weight="700">Tejas</tspan> 👋</text>
       <text x="808" y="252" clip-path="url(#O2)" fill="#A6ADC8"><tspan fill="#94E2D5">▸</tspan> Java · Spring Boot · MySQL</text>
-      <text x="808" y="276" clip-path="url(#O3)" fill="#A6ADC8"><tspan fill="#94E2D5">▸</tspan> I turn ideas into deployed apps</text>
+      <text x="808" y="276" clip-path="url(#O3)" fill="#A6ADC8"><tspan fill="#94E2D5">▸</tspan> Ex-intern @ HCLTech</text>
       <text x="808" y="300" clip-path="url(#O4)" fill="#A6ADC8"><tspan fill="#94E2D5">▸</tspan> Currently exploring Agentic AI</text>
       <text x="808" y="332" clip-path="url(#O5)" fill="#A6E3A1" font-weight="700">BUILD SUCCESSFUL <tspan fill="#7F849C" font-weight="400">in 1.2s · exit 0</tspan></text>
     </g>

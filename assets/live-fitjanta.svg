@@ -1,23 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="330" height="50" viewBox="0 0 330 50" role="img" aria-label="FitJanta live demo: fitjanta.onrender.com">
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="124" viewBox="0 0 580 124" role="img" aria-label="FitJanta — live app at fitjanta.onrender.com">
   <defs>
-    <linearGradient id="b" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2E2226"/><stop offset="1" stop-color="#181825"/></linearGradient>
-    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FAB387" stop-opacity=".7"/><stop offset="1" stop-color="#F5C2E7" stop-opacity=".2"/></linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#30232A"/><stop offset=".55" stop-color="#211E27"/><stop offset="1" stop-color="#181825"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FAB387" stop-opacity=".75"/><stop offset=".6" stop-color="#F5C2E7" stop-opacity=".25"/><stop offset="1" stop-color="#CDD6F4" stop-opacity=".08"/></linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FAB387"/><stop offset="1" stop-color="#F5C2E7"/></linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#FAB387" stop-opacity=".26"/><stop offset="1" stop-color="#FAB387" stop-opacity="0"/></radialGradient>
+    <clipPath id="c"><rect width="580" height="124" rx="22"/></clipPath>
     <style>
-      .m{font-family:'Cascadia Code',Consolas,'SFMono-Regular',Menlo,'Courier New',monospace}
-      .ring{animation:r 2.4s ease-out infinite .8s;transform-origin:24px 25px}
-      @keyframes r{0%{transform:scale(.7);opacity:.7}100%{transform:scale(2.6);opacity:0}}
-      .sh{animation:s 5s ease-in-out infinite 1.6s}
-      @keyframes s{0%{transform:translateX(-140px)}55%,100%{transform:translateX(380px)}}
+      .sans{font-family:'Segoe UI Variable Display','Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif}
+      .mono{font-family:'Cascadia Code',Consolas,'SFMono-Regular',Menlo,'Courier New',monospace}
+      .ring{animation:r 2.2s ease-out infinite .7s;transform-box:fill-box;transform-origin:center}
+      @keyframes r{0%{transform:scale(.8);opacity:.8}100%{transform:scale(2.8);opacity:0}}
+      .sweep{animation:s 6s ease-in-out infinite 2s}
+      @keyframes s{0%{transform:translateX(-200px) skewX(-18deg)}50%,100%{transform:translateX(700px) skewX(-18deg)}}
+      .arc{animation:a 3s ease-in-out infinite alternate}
+      @keyframes a{from{stroke-dashoffset:170}to{stroke-dashoffset:50}}
+      .beat{animation:b 1.2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+      @keyframes b{0%,100%{transform:scale(1)}15%{transform:scale(1.18)}30%{transform:scale(1)}}
     </style>
-    <clipPath id="c"><rect width="330" height="50" rx="14"/></clipPath>
   </defs>
   <g clip-path="url(#c)">
-    <rect width="330" height="50" fill="url(#b)"/>
-    <rect class="sh" x="0" y="-10" width="70" height="70" fill="#F5E0DC" opacity=".05" transform="skewX(-20)"/>
-    <rect x=".5" y=".5" width="329" height="49" rx="13.5" fill="none" stroke="url(#edge)"/>
-    <circle class="ring" cx="24" cy="25" r="6" fill="#A6E3A1"/>
-    <circle cx="24" cy="25" r="4.5" fill="#A6E3A1"/>
-    <text x="42" y="21" class="m" font-size="9.5" font-weight="700" letter-spacing="2" fill="#FAB387">LIVE · FITJANTA</text>
-    <text x="42" y="38" class="m" font-size="12.5" fill="#CDD6F4">fitjanta.onrender.com <tspan fill="#F5C2E7">↗</tspan></text>
+    <rect width="580" height="124" fill="url(#bg)"/>
+    <circle cx="70" cy="62" r="110" fill="url(#glow)"/>
+    <rect class="sweep" x="0" y="-20" width="90" height="170" fill="#F5E0DC" opacity=".05"/>
+    <rect x="1" y="1" width="578" height="122" rx="21" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
+
+    <!-- icon tile -->
+    <rect x="24" y="24" width="76" height="76" rx="20" fill="#11111B" fill-opacity=".65" stroke="#FAB387" stroke-opacity=".35"/>
+    <g transform="translate(62,62)">
+      <circle r="26" fill="none" stroke="#CDD6F4" stroke-opacity=".08" stroke-width="6"/>
+      <circle class="arc" r="26" fill="none" stroke="url(#title)" stroke-width="6" stroke-linecap="round" stroke-dasharray="164" stroke-dashoffset="80" transform="rotate(-90)"/>
+      <path class="beat" d="M0 11 C-14 1 -17 -7 -11 -12 C-6 -16 -1 -12 0 -9 C1 -12 6 -16 11 -12 C17 -7 14 1 0 11Z" fill="#F5C2E7"/>
+    </g>
+
+    <text x="122" y="46" class="mono" font-size="11" font-weight="700" letter-spacing="2.4" fill="#FAB387">SOCIAL FITNESS · LIVE APP</text>
+    <text x="121" y="80" class="sans" font-size="29" font-weight="700" letter-spacing="-.8" fill="url(#title)">FitJanta</text>
+    <text x="122" y="104" class="mono" font-size="13.5" fill="#CDD6F4">fitjanta.onrender.com</text>
+
+    <g transform="translate(452,24)">
+      <rect width="100" height="32" rx="16" fill="#A6E3A1" fill-opacity=".14" stroke="#A6E3A1" stroke-opacity=".6"/>
+      <circle class="ring" cx="22" cy="16" r="5" fill="#A6E3A1"/>
+      <circle cx="22" cy="16" r="5" fill="#A6E3A1"/>
+      <text x="36" y="21" class="mono" font-size="13" font-weight="800" letter-spacing="2" fill="#A6E3A1">LIVE</text>
+    </g>
+    <g transform="translate(452,72)">
+      <rect width="100" height="32" rx="16" fill="#CDD6F4" fill-opacity=".06" stroke="#CDD6F4" stroke-opacity=".18"/>
+      <text x="50" y="21" text-anchor="middle" class="sans" font-size="13.5" font-weight="600" fill="#CDD6F4">Open  ↗</text>
+    </g>
   </g>
 </svg>
