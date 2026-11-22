@@ -72,10 +72,10 @@
       <a href="https://github.com/tjsss10/llm-ps19-19"><img src="assets/card-vani.svg" alt="Vani — Voice Assistant with LLM" width="100%"></a>
     </td>
     <td width="50%" valign="top">
-      <img src="assets/pipe-vani.svg" alt="How Vani works: speak, Whisper, Llama 3.3, clean text, gTTS" width="100%">
+      <img src="assets/pipe-vani.svg" alt="How Vani works: speak, Whisper, GPT-OSS, clean text, gTTS" width="100%">
       <p><b>Vani</b> — a voice assistant you talk to instead of typing.</p>
       <ul>
-        <li>🎤 <b>Whisper</b> speech-to-text → 🧠 <b>Llama 3.3 70B</b> (Groq) → 🔊 <b>gTTS</b> voice reply</li>
+        <li>🎤 <b>Whisper</b> speech-to-text → 🧠 <b>GPT-OSS 120B</b> (Groq) → 🔊 <b>gTTS</b> voice reply</li>
         <li>🌐 English · Hindi · Marathi · 🎭 4 personas · 💾 conversation memory</li>
         <li>⏱️ Latency meter · 📥 transcript export · 🛡️ offline TTS fallback</li>
       </ul>
@@ -151,7 +151,7 @@
 
 - [x] Ship **FitJanta** to a permanent cloud link
 - [x] Build **CropDisease AI Pro** with computer vision in pure Java
-- [x] Ship **Vani**, a GenAI voice assistant (Whisper + Llama 3 + gTTS), to a live link
+- [x] Ship **Vani**, a GenAI voice assistant (Whisper + GPT-OSS + gTTS), to a live link
 - [ ] Train a CNN (PlantVillage) and plug it into CropDisease AI
 - [ ] Multi-language (Hindi / Marathi) support for farmers
 
