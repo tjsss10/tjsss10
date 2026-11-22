@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="124" viewBox="0 0 580 124" role="img" aria-label="Vani — live app at vani-ps19.streamlit.app">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2A2440"/><stop offset=".55" stop-color="#201F30"/><stop offset="1" stop-color="#181825"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#CBA6F7" stop-opacity=".75"/><stop offset=".6" stop-color="#89B4FA" stop-opacity=".25"/><stop offset="1" stop-color="#CDD6F4" stop-opacity=".08"/></linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#CBA6F7"/><stop offset="1" stop-color="#89B4FA"/></linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#CBA6F7" stop-opacity=".26"/><stop offset="1" stop-color="#CBA6F7" stop-opacity="0"/></radialGradient>
+    <clipPath id="c"><rect width="580" height="124" rx="22"/></clipPath>
+    <style>
+      .sans{font-family:'Segoe UI Variable Display','Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif}
+      .mono{font-family:'Cascadia Code',Consolas,'SFMono-Regular',Menlo,'Courier New',monospace}
+      .ring{animation:r 2.2s ease-out infinite .7s;transform-box:fill-box;transform-origin:center}
+      @keyframes r{0%{transform:scale(.8);opacity:.8}100%{transform:scale(2.8);opacity:0}}
+      .sweep{animation:s 6s ease-in-out infinite 2s}
+      @keyframes s{0%{transform:translateX(-200px) skewX(-18deg)}50%,100%{transform:translateX(700px) skewX(-18deg)}}
+      .bar{animation:v 1.1s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:center}
+      @keyframes v{from{transform:scaleY(.35)}to{transform:scaleY(1)}}
+    </style>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="580" height="124" fill="url(#bg)"/>
+    <circle cx="70" cy="62" r="110" fill="url(#glow)"/>
+    <rect class="sweep" x="0" y="-20" width="90" height="170" fill="#F5E0DC" opacity=".05"/>
+    <rect x="1" y="1" width="578" height="122" rx="21" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
+
+    <rect x="24" y="24" width="76" height="76" rx="20" fill="#11111B" fill-opacity=".65" stroke="#CBA6F7" stroke-opacity=".35"/>
+    <g fill="url(#title)">
+      <rect class="bar" x="37" y="50" width="6" height="24" rx="3"/>
+      <rect class="bar" x="47" y="40" width="6" height="44" rx="3" style="animation-delay:.25s"/>
+      <rect class="bar" x="57" y="32" width="6" height="60" rx="3" style="animation-delay:.5s"/>
+      <rect class="bar" x="67" y="42" width="6" height="40" rx="3" style="animation-delay:.15s"/>
+      <rect class="bar" x="77" y="52" width="6" height="20" rx="3" style="animation-delay:.4s"/>
+    </g>
+
+    <text x="122" y="46" class="mono" font-size="11" font-weight="700" letter-spacing="2.4" fill="#CBA6F7">GENAI VOICE ASSISTANT · LIVE APP</text>
+    <text x="121" y="80" class="sans" font-size="29" font-weight="700" letter-spacing="-.8" fill="url(#title)">Vani</text>
+    <text x="122" y="104" class="mono" font-size="13.5" fill="#CDD6F4">vani-ps19.streamlit.app</text>
+
+    <g transform="translate(452,24)">
+      <rect width="100" height="32" rx="16" fill="#A6E3A1" fill-opacity=".14" stroke="#A6E3A1" stroke-opacity=".6"/>
+      <circle class="ring" cx="22" cy="16" r="5" fill="#A6E3A1"/>
+      <circle cx="22" cy="16" r="5" fill="#A6E3A1"/>
+      <text x="36" y="21" class="mono" font-size="13" font-weight="800" letter-spacing="2" fill="#A6E3A1">LIVE</text>
+    </g>
+    <g transform="translate(452,72)">
+      <rect width="100" height="32" rx="16" fill="#CDD6F4" fill-opacity=".06" stroke="#CDD6F4" stroke-opacity=".18"/>
+      <text x="50" y="21" text-anchor="middle" class="sans" font-size="13.5" font-weight="600" fill="#CDD6F4">Open  ↗</text>
+    </g>
+  </g>
+</svg>

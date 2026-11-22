@@ -9,6 +9,7 @@
 <p align="center">
   <a href="https://cropdisease-ai-pro.onrender.com"><img src="assets/live-cropdisease.svg" alt="CropDisease AI — live app, open cropdisease-ai-pro.onrender.com" width="49%"></a>
   <a href="https://fitjanta.onrender.com"><img src="assets/live-fitjanta.svg" alt="FitJanta — live app, open fitjanta.onrender.com" width="49%"></a>
+  <a href="https://vani-ps19.streamlit.app"><img src="assets/live-vani.svg" alt="Vani — live voice assistant, open vani-ps19.streamlit.app" width="49%"></a>
 </p>
 
 ---
@@ -63,6 +64,29 @@
   </tr>
 </table>
 
+### 🤖 GenAI projects
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/tjsss10/llm-ps19-19"><img src="assets/card-vani.svg" alt="Vani — Voice Assistant with LLM" width="100%"></a>
+    </td>
+    <td width="50%" valign="top">
+      <img src="assets/pipe-vani.svg" alt="How Vani works: speak, Whisper, Llama 3.3, clean text, gTTS" width="100%">
+      <p><b>Vani</b> — a voice assistant you talk to instead of typing.</p>
+      <ul>
+        <li>🎤 <b>Whisper</b> speech-to-text → 🧠 <b>Llama 3.3 70B</b> (Groq) → 🔊 <b>gTTS</b> voice reply</li>
+        <li>🌐 English · Hindi · Marathi · 🎭 4 personas · 💾 conversation memory</li>
+        <li>⏱️ Latency meter · 📥 transcript export · 🛡️ offline TTS fallback</li>
+      </ul>
+      <p>
+        <a href="https://vani-ps19.streamlit.app"><img src="https://img.shields.io/badge/Live_app-CBA6F7?style=for-the-badge&logo=streamlit&logoColor=11111B" alt="Live app"></a>
+        <a href="https://github.com/tjsss10/llm-ps19-19"><img src="https://img.shields.io/badge/Source-1E1E2E?style=for-the-badge&logo=github&logoColor=CDD6F4" alt="Source code"></a>
+      </p>
+    </td>
+  </tr>
+</table>
+
 ### 🧩 Agile & team projects
 
 <table>
@@ -109,6 +133,11 @@
   <img src="https://img.shields.io/badge/Chart.js-1E1E2E?style=for-the-badge&logo=chartdotjs&logoColor=F5C2E7" alt="Chart.js">
 </p>
 <p>
+  <img src="https://img.shields.io/badge/Python-1E1E2E?style=for-the-badge&logo=python&logoColor=F9E2AF" alt="Python">
+  <img src="https://img.shields.io/badge/Streamlit-1E1E2E?style=for-the-badge&logo=streamlit&logoColor=F38BA8" alt="Streamlit">
+  <img src="https://img.shields.io/badge/Groq_LLM-1E1E2E?style=for-the-badge&logo=meta&logoColor=CBA6F7" alt="Groq LLM">
+</p>
+<p>
   <img src="https://img.shields.io/badge/Docker-1E1E2E?style=for-the-badge&logo=docker&logoColor=89B4FA" alt="Docker">
   <img src="https://img.shields.io/badge/Render-1E1E2E?style=for-the-badge&logo=render&logoColor=94E2D5" alt="Render">
   <img src="https://img.shields.io/badge/Git-1E1E2E?style=for-the-badge&logo=git&logoColor=F38BA8" alt="Git">
@@ -122,6 +151,7 @@
 
 - [x] Ship **FitJanta** to a permanent cloud link
 - [x] Build **CropDisease AI Pro** with computer vision in pure Java
+- [x] Ship **Vani**, a GenAI voice assistant (Whisper + Llama 3 + gTTS), to a live link
 - [ ] Train a CNN (PlantVillage) and plug it into CropDisease AI
 - [ ] Multi-language (Hindi / Marathi) support for farmers
 

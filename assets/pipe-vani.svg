@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="200" viewBox="0 0 560 200" role="img" aria-label="How Vani works: speak, Whisper speech-to-text, Llama 3 reply with memory, clean text, gTTS speaks the reply">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#262238"/><stop offset="1" stop-color="#181825"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#CBA6F7"/><stop offset="1" stop-color="#89B4FA"/></linearGradient>
+    <clipPath id="c"><rect width="560" height="200" rx="18"/></clipPath>
+    <style>
+      .sans{font-family:'Segoe UI Variable Display','Segoe UI',Inter,Arial,sans-serif}
+      .mono{font-family:'Cascadia Code',Consolas,Menlo,'Courier New',monospace}
+      .n{animation:n 5s ease-in-out infinite}
+      @keyframes n{0%,100%{stroke-opacity:.3}10%{stroke-opacity:1}25%{stroke-opacity:.3}}
+    </style>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="560" height="200" fill="url(#bg)"/>
+    <rect x=".5" y=".5" width="559" height="199" rx="17.5" fill="none" stroke="#CBA6F7" stroke-opacity=".22"/>
+    <text x="22" y="32" class="mono" font-size="10.5" font-weight="700" letter-spacing="2.4" fill="#CBA6F7">HOW IT WORKS</text>
+    <text x="538" y="32" text-anchor="end" class="mono" font-size="10.5" fill="#7F849C">Groq API · Streamlit Cloud</text>
+
+    <path id="flow" d="M60 92 H500" stroke="#CDD6F4" stroke-opacity=".10" stroke-width="2" fill="none"/>
+    <path d="M60 92 H500" stroke="url(#line)" stroke-width="2" fill="none" stroke-dasharray="4 10" opacity=".55"/>
+    <circle r="5" fill="#CBA6F7">
+      <animateMotion dur="5s" repeatCount="indefinite"><mpath href="#flow"/></animateMotion>
+    </circle>
+
+    <g class="sans" text-anchor="middle">
+      <g transform="translate(60,92)">
+        <circle r="27" fill="#11111B" stroke="#CBA6F7" stroke-width="1.5" class="n"/>
+        <text y="7" font-size="20">🎤</text>
+        <text y="50" font-size="12.5" font-weight="700" fill="#CDD6F4">Speak</text>
+        <text y="66" font-size="10.5" fill="#7F849C">browser mic</text>
+      </g>
+      <g transform="translate(170,92)">
+        <circle r="27" fill="#11111B" stroke="#A6E3A1" stroke-width="1.5" class="n" style="animation-delay:1s"/>
+        <text y="7" font-size="20">📝</text>
+        <text y="50" font-size="12.5" font-weight="700" fill="#CDD6F4">Whisper</text>
+        <text y="66" font-size="10.5" fill="#7F849C">speech → text</text>
+      </g>
+      <g transform="translate(280,92)">
+        <circle r="27" fill="#11111B" stroke="#F5C2E7" stroke-width="1.5" class="n" style="animation-delay:2s"/>
+        <text y="7" font-size="20">🧠</text>
+        <text y="50" font-size="12.5" font-weight="700" fill="#CDD6F4">Llama 3.3</text>
+        <text y="66" font-size="10.5" fill="#7F849C">reply · memory</text>
+      </g>
+      <g transform="translate(390,92)">
+        <circle r="27" fill="#11111B" stroke="#F9E2AF" stroke-width="1.5" class="n" style="animation-delay:3s"/>
+        <text y="7" font-size="20">🧹</text>
+        <text y="50" font-size="12.5" font-weight="700" fill="#CDD6F4">Clean</text>
+        <text y="66" font-size="10.5" fill="#7F849C">no markdown</text>
+      </g>
+      <g transform="translate(500,92)">
+        <circle r="27" fill="#11111B" stroke="#89B4FA" stroke-width="1.5" class="n" style="animation-delay:4s"/>
+        <text y="7" font-size="20">🔊</text>
+        <text y="50" font-size="12.5" font-weight="700" fill="#CDD6F4">gTTS</text>
+        <text y="66" font-size="10.5" fill="#7F849C">text → speech</text>
+      </g>
+    </g>
+    <text x="280" y="186" text-anchor="middle" class="mono" font-size="10.5" fill="#6C7086">speech-friendly prompt · latency meter · offline pyttsx3 fallback</text>
+  </g>
+</svg>
